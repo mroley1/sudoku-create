@@ -214,8 +214,8 @@ class puzzle(){
               }
             }
           }
+          if (left.isEmpty){loop.break()}
         }
-        if (left.isEmpty){loop.break()}
     }
   }
 }
